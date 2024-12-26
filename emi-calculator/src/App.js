@@ -14,15 +14,19 @@ function App() {
   }
   
   return (
-    <div className="App" style={{backgroundColor:'cyan'}}>
-      <div style={{border:'1px solid black', margin:'auto',width:'50%', background:'white'}}>
-         Mortage Calculator
-         <h4>Principal</h4>
+    <div className="App" style={{backgroundColor:'cyan', height:'100vh'}}>
+      <div className='form-container'>
+       
+        <h3>Mortage Calculator</h3> 
+        <div>
+        <h4>Principal</h4>
          <input type="number" value={principal} onChange={(e)=>setPrincipal(e.target.value)} width={200}/>
-         <h4>Rate</h4>
-         <input type="number" value={rate} onChange={(e)=>setRate(e.target.value)}/>
-         <h4>Time</h4>
+        </div>
+         <div><h4>Rate</h4>
+         <input type="number" value={rate} onChange={(e)=>setRate(e.target.value)}/></div>
+         <div>         <h4>Time</h4>
          <input type="number" value={time} onChange={(e)=>setTime(e.target.value)}/>
+         </div>
          <button onClick={calculateEMI}>Calculate</button>
          <p>Your EMI is ${emi}</p>
         </div>

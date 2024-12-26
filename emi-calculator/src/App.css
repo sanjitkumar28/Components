@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 .App-logo {
@@ -35,4 +38,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  width: 33%;
+  background-color: white;
+  gap:20px;
 }
