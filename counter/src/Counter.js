@@ -9,8 +9,6 @@ const Counter=()=>{
     }
 
     const handleIncrement=()=>{
-        console.log('incr',incrementStep);
-        console.log('curr',currentNumber);
         setCurrentNumber(Number(incrementStep)+Number(currentNumber));
     }
     const handleDecrement=()=>{
