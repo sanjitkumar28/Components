@@ -1,0 +1,19 @@
+.App{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height: 100vh;
+  background-color: aqua;
+
+}
+.modal {
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  width: 33%;
+  height: 33%;
+  background-color: white;
+  gap:40px;
+}
