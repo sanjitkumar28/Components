@@ -17,3 +17,8 @@
   background-color: white;
   gap:40px;
 }
+
+.multiple-select-button{
+  background-color: grey;
+  margin-bottom: 10px;
+}
