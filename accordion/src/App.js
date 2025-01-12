@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { accordionData } from './data';
+import GenerateRandomColor from './GenarateRandomColor';
 import { useState } from 'react';
 function App() {
   const [selectedIndex,setSelectedIndex]=useState(-1);
@@ -40,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='container'>
+      {/* <div className='container'>
         {
           !isMulipleSelectEnable ?<button onClick={handleClick} className='multiple-select-button'>Enable Multiple Select</button> :<button onClick={handleClick} className='multiple-select-button'>Enable Single Select</button>
         }    
@@ -57,7 +58,8 @@ function App() {
             </div>
           ))
          } 
-    </div>
+    </div> */}
+     <GenerateRandomColor/>
     </div>
   );
 }
