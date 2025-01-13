@@ -1,6 +1,6 @@
-.on{
-  color: grey;
+.active{
+  color: black;
 }
-.off{
- color: black;
+.inactive{
+ color: grey;
 }

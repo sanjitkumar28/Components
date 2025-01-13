@@ -5,7 +5,7 @@ import Star from './Star';
 function App() {
   return (
     <div className="App">
-     <Star/>
+     <Star numberOfStars={5}/>
     </div>
   );
 }
